@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-for num in range(0, 100):
-    if num < 99:
-        print("{:02d}".format(num), end=", ")
-    else:
-        print(num)
+for num in range(10):
+    for num2 in range(num + 1, 10):
+        separador = ", " if num2 < 9 or num < 8 else "\n"
+        print("{:d}{:d}".format(num, num2), end=separador)
