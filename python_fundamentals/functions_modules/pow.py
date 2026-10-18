@@ -3,4 +3,4 @@ def pow(a, b):
     resultado = 1
     for i in range(b):
         resultado *= a
-    print(resultado)
+    return resultado
