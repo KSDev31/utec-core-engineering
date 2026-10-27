@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Módulo con una función para escribir texto en un archivo."""
+# Módulo con una función para escribir texto en un archivo."""
 
 
 def write_file(filename="", text=""):
