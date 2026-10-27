@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-# Lee archivos de texto e imprime su contenido.
+"""Lee archivos de texto e imprime su contenido."""
 
 def read_file(filename=""):
     """Lee un archivo de texto UTF-8 y lo imprime en stdout."""
